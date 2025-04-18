@@ -56,9 +56,6 @@ IText: A Smart Language Conversion Tool for Text, Speech, and Audio Extraction
 
 🗂️ Folder Structure:
 
-    php
-    Copy
-    Edit
     itext-project/
     ├── server.js              # Backend logic
     ├── index.html             # Web UI
@@ -77,9 +74,6 @@ IText: A Smart Language Conversion Tool for Text, Speech, and Audio Extraction
 
     Start the server
 
-    bash
-    Copy
-    Edit
     node server.js
     Runs a local server at http://localhost:3000
 
