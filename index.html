@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IText</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">IText</h1>
+        
+        <div class="text-area">
+            <h2 class="section-title">iTranslate</h2>
+            <textarea id="inputText" placeholder="Enter text here..."></textarea>
+            <textarea id="outputText" placeholder="Translated text..." readonly></textarea>
+        </div>
+
+        <div class="controls">
+            <select id="targetLanguage">
+                <option value="hi-IN">Hindi</option>
+                <option value="bn-IN">Bengali</option>
+                <option value="kn-IN">Kannada</option>
+                <option value="ml-IN">Malayalam</option>
+                <option value="mr-IN">Marathi</option>
+                <option value="od-IN">Odia</option>
+                <option value="pa-IN">Punjabi</option>
+                <option value="ta-IN">Tamil</option>
+                <option value="te-IN">Telugu</option>
+                <option value="gu-IN">Gujarati</option>
+            </select>
+            <button id="translateButton">Translate</button>
+        </div>
+
+        <hr class="divider">
+
+        <div class="audio-extraction">
+            <h2 class="section-title">AudioTxt</h2>
+            <input type="file" id="videoUpload" accept="video/*" />
+            <button id="extractAudioButton">Extract Audio</button>
+            <textarea id="audioOutputText" placeholder="Extracted audio text will appear here..." readonly></textarea>
+        </div>
+
+        <div class="speak-section">
+            <h2 class="section-title">Speak</h2>
+            <textarea id="speakTextArea" placeholder="Enter text to speak..."></textarea>
+            <select id="speakLanguage">
+                <option value="hi-IN">Hindi</option>
+                <option value="bn-IN">Bengali</option>
+                <option value="kn-IN">Kannada</option>
+                <option value="ml-IN">Malayalam</option>
+                <option value="mr-IN">Marathi</option>
+                <option value="od-IN">Odia</option>
+                <option value="pa-IN">Punjabi</option>
+                <option value="ta-IN">Tamil</option>
+                <option value="te-IN">Telugu</option>
+                <option value="gu-IN">Gujarati</option>
+            </select>
+            <button id="speakButton">Speak</button>
+        </div>
+        
+        <footer>
+            <p>Made by:</p>
+            <ul>
+                <li>Nazib Alam <span>cse@2025</span></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
